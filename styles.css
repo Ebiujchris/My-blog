@@ -1,0 +1,277 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  
+}
+
+#home {
+  color: aqua;
+}
+#about {
+  color: aqua;
+}
+#blog {
+  color: aqua;
+}
+#name {
+  color: aqua;
+  font-style: italic;
+}
+#search {
+  color: aqua;
+}
+#hey {
+  font-size:  60px;
+  position: relative;
+  bottom: 580px;
+  margin-left: 40px;
+}
+#ask {
+  bottom: 300px;
+  right:450px;
+  font-size: 25px;
+  position: relative;
+}
+.I {
+  margin-left: 100px;
+  padding-top: 70px;
+  font-size: 30px;
+}
+#contact {
+  color: aqua;
+}
+
+.myButton {
+  display: inline-block;
+  padding: 20px 35px;
+  text-align: center;
+  text-decoration: none;
+  background-color: black;
+  color: aqua;
+  cursor: pointer;
+  border-color: black;
+  margin-left: 80px;
+  margin-top: 30px;
+  position: relative;
+  bottom: 330px;
+  
+}
+
+.myButton:hover {
+  background-color: gray;
+}
+
+.image {
+  margin-top: 100px;
+  margin-left:600px  
+}
+
+img {
+  max-width: 70%;
+  height: auto;
+}
+#copyright {
+  color: white;
+}
+#g {
+  padding-top: 10px;
+}
+#recentblog {
+  padding-left: 80px;
+  position: relative ;
+  bottom: 250px;
+}
+#go {
+  padding-left: 30px;
+  position:relative ;
+  bottom: 200px;
+}
+#d{
+   position: relative ;
+   bottom: 160px;
+   margin-left: 30px;
+}
+#self {
+  position: relative ;
+  bottom: 100px;
+  left:30px;
+}
+#next {
+  position: relative;
+  bottom:40px;
+  left: 30px;
+  
+}
+#profile {
+  margin-left: 100px;
+  padding: 20px;
+}
+#container {
+  padding-top: 60px;
+  align-items: center;
+}
+.about-main {
+  min-height: 400px;
+}
+#email {
+  padding-top: 90px;
+}
+#note {
+  margin-top: 100px;
+  margin-left: 130px;
+}
+#gray {
+  width: 40%;
+  height: 50%;
+}
+#maroon {
+  width:40% ;
+  height: 60%;
+}
+#top {
+  width: 40%;
+  height: 60%;
+}
+#experience {
+  top: 60px;
+  left: 120px;
+  position: relative;
+}
+.double-line {
+  position: relative;
+  display: inline-block;
+}
+.double-line::before,
+    .double-line::after {
+      
+      position: absolute;
+      top: 50%;
+      width: 50%;
+      height: 1px;
+      background-color: #000; 
+      
+    }
+
+    .double-line::before {
+      right: 90px;
+      transform: translateX(-100%);
+    }
+    .double-line::after {
+      left: 90px;
+      transform: translateX(100%);
+    }
+    #double-line {
+      margin-left: 100px;
+      margin-top: 30px;
+    }
+
+    #news {
+      position: relative;
+      left: 300px;
+    }
+
+
+    .square {
+      width: 400px; 
+      height: 500px; 
+      background-color: black;
+      margin-top: 40px;
+    }
+
+    .square2 {
+      width: 0px; 
+      height: 10px; 
+      background-color: black;
+      
+    }
+
+  
+    #t {
+      color: white;
+      margin-left: 20px;
+      padding: 50px;
+    }
+
+    #iran{
+      margin-right: 40px;
+    }
+  #b {
+    margin-left: 200px;
+  }
+
+  #ug {
+    padding: 20px;
+    }
+  #h {
+    color: red;
+  }
+  #pl {
+    color: red;
+    padding: 20px;
+  }
+  #wakiso {
+    padding-left: 20px;
+  }
+  #na {
+    top: 700px;
+    position: relative;
+    right: 300px;
+     
+  }
+
+
+
+  
+ .main {
+  background-color: white;
+  min-height: 1400px;
+  max-width: fit-content;
+  
+ }
+
+
+
+ #comments {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.comment {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* Styles for comment form */
+#comment-form {
+  margin-top: 20px;
+}
+
+#comment-form textarea {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+#comment-form button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+}
+ 
+
+
+  
+
+ .footer {
+  background-color: black; 
+  text-align: center;
+  padding: 150px;
+  bottom: 0;
+  left: 0;
+  max-width: 1520px;
+
+ }
+
